@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc --outDir test main.ts"
   },
   "dependencies": {
     "typescript": "^3.8.3"
